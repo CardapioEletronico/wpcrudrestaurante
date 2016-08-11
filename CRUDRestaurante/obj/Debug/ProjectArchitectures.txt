@@ -1,1 +1,1 @@
-c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\CRUDRestaurante.csproj;neutral
+C:\POS\wpcrudrestaurante\CRUDRestaurante\CRUDRestaurante.csproj;neutral

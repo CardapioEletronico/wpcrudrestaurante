@@ -41,7 +41,8 @@ namespace CRUDRestaurante
              foreach (var cu in obj)
             {
                 TextBox txt = new TextBox();
-                txt.Text = cu.ToString();
+                txt.Text = "";
+                txt.Text = cu.Id.ToString() + cu.Descricao.ToString();
                 Stack.Children.Add(txt);
                 
             }
@@ -74,7 +75,6 @@ namespace CRUDRestaurante
 
             Restaurante f = new Restaurante
             {
-
                 Id = int.Parse(textBoxId.Text),
 
                 Descricao = textBoxDesc.Text

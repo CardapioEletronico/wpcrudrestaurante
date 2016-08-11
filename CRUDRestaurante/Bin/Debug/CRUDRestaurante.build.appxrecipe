@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CBMRN02</Machine>
-    <WindowsUser>Isaac Medeiros</WindowsUser>
+    <Machine>GABRIELDINI5F24</Machine>
+    <WindowsUser>gabrieldiniz</WindowsUser>
     <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
@@ -10,93 +10,93 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>bb3d010f-7477-46c3-a683-7361a8fa38fd</PackageIdentityName>
     <PackageIdentityPublisher>CN=Isaac Medeiros</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\POS\wpcrudrestaurante\CRUDRestaurante\obj\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Bin\Debug\CRUDRestaurante.dll">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Bin\Debug\CRUDRestaurante.dll">
       <PackagePath>CRUDRestaurante.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml">
       <PackagePath>Newtonsoft.Json.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.xml">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.xml">
       <PackagePath>System.Net.Http.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml">
       <PackagePath>System.Net.Http.Extensions.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\packages\Microsoft.Net.Http.2.2.29\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml">
       <PackagePath>System.Net.Http.Primitives.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\AlignmentGrid.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\AlignmentGrid.png">
       <PackagePath>Assets\AlignmentGrid.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\ApplicationIcon.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\ApplicationIcon.png">
       <PackagePath>Assets\ApplicationIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\BadgeLogo.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\BadgeLogo.png">
       <PackagePath>Assets\BadgeLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\SquareTile150x150.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\SquareTile150x150.png">
       <PackagePath>Assets\SquareTile150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\SquareTile71x71.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\SquareTile71x71.png">
       <PackagePath>Assets\SquareTile71x71.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\WideLogo.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\Tiles\FlipCycleTileLarge.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\Tiles\FlipCycleTileLarge.png">
       <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\Tiles\FlipCycleTileMedium.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\Tiles\FlipCycleTileMedium.png">
       <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\Tiles\FlipCycleTileSmall.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\Tiles\FlipCycleTileSmall.png">
       <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\Tiles\IconicTileMediumLarge.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\Tiles\IconicTileMediumLarge.png">
       <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Assets\Tiles\IconicTileSmall.png">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\isaac medeiros\documents\visual studio 2015\Projects\CRUDRestaurante\CRUDRestaurante\Bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\POS\wpcrudrestaurante\CRUDRestaurante\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
