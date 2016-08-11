@@ -47,7 +47,7 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0" Height="534" VerticalAlignment="Bottom">
             <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <StackPanel x:Name="Stack" HorizontalAlignment="Left" Height="514" Margin="10,10,0,0" VerticalAlignment="Top" Width="436"/>
+                <StackPanel x:Name="Stacu" HorizontalAlignment="Left" Height="514" Margin="10,10,0,0" VerticalAlignment="Top" Width="436"/>
             </ScrollViewer>
         </Grid>
         <TextBox x:Name="textBoxId" HorizontalAlignment="Left" Height="72" Margin="0,55,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Width="134" Grid.Row="1"/>

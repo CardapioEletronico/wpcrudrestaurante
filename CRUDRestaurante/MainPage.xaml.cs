@@ -30,6 +30,7 @@ namespace CRUDRestaurante
 
         private async void buttonSelect_Click(object sender, RoutedEventArgs e)
         {
+            Stacu.Children.Clear();
             HttpClient httpClient = new HttpClient();
             httpClient.BaseAddress = new Uri(ip);
             var response = await httpClient.GetAsync("/20131011110061/api/restaurante");
@@ -43,7 +44,7 @@ namespace CRUDRestaurante
                 TextBlock txt = new TextBlock();
                 txt.Text = "";
                 txt.Text = cu.Id.ToString() + " - " + cu.Descricao.ToString();
-                Stack.Children.Add(txt);      
+                Stacu.Children.Add(txt);      
             }
         }
 
@@ -64,6 +65,23 @@ namespace CRUDRestaurante
 
             await httpClient.PostAsync("/20131011110061/api/restaurante", content);
 
+            Stacu.Children.Clear();
+            httpClient = new HttpClient();
+            httpClient.BaseAddress = new Uri(ip);
+            var response = await httpClient.GetAsync("/20131011110061/api/restaurante");
+
+            var str = response.Content.ReadAsStringAsync().Result;
+
+            List<Restaurante> obj = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Restaurante>>(str);
+
+            foreach (var cu in obj)
+            {
+                TextBlock txt = new TextBlock();
+                txt.Text = "";
+                txt.Text = cu.Id.ToString() + " - " + cu.Descricao.ToString();
+                Stacu.Children.Add(txt);
+            }
+
         }
 
         private async void  buttonUpdate_Click(object sender, RoutedEventArgs e)
@@ -82,6 +100,23 @@ namespace CRUDRestaurante
             var Stack = new StringContent(s, Encoding.UTF8, "application/x-www-form-urlencoded");
 
             await httpClient.PutAsync("/20131011110061/api/restaurante/" + f.Id, Stack);
+
+            Stacu.Children.Clear();
+            httpClient = new HttpClient();
+            httpClient.BaseAddress = new Uri(ip);
+            var response = await httpClient.GetAsync("/20131011110061/api/restaurante");
+
+            var str = response.Content.ReadAsStringAsync().Result;
+
+            List<Restaurante> obj = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Restaurante>>(str);
+
+            foreach (var cu in obj)
+            {
+                TextBlock txt = new TextBlock();
+                txt.Text = "";
+                txt.Text = cu.Id.ToString() + " - " + cu.Descricao.ToString();
+                Stacu.Children.Add(txt);
+            }
         }
 
         private async void  buttonDelete_Click(object sender, RoutedEventArgs e)
@@ -92,6 +127,24 @@ namespace CRUDRestaurante
             httpClient.BaseAddress = new Uri(ip);
 
             await httpClient.DeleteAsync("/20131011110061/api/restaurante/" + textBoxId.Text);
+
+
+            Stacu.Children.Clear();
+            httpClient = new HttpClient();
+            httpClient.BaseAddress = new Uri(ip);
+            var response = await httpClient.GetAsync("/20131011110061/api/restaurante");
+
+            var str = response.Content.ReadAsStringAsync().Result;
+
+            List<Restaurante> obj = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Restaurante>>(str);
+
+            foreach (var cu in obj)
+            {
+                TextBlock txt = new TextBlock();
+                txt.Text = "";
+                txt.Text = cu.Id.ToString() + " - " + cu.Descricao.ToString();
+                Stacu.Children.Add(txt);
+            }
 
         }
     }
