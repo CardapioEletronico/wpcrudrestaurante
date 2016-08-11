@@ -40,11 +40,10 @@ namespace CRUDRestaurante
 
              foreach (var cu in obj)
             {
-                TextBox txt = new TextBox();
+                TextBlock txt = new TextBlock();
                 txt.Text = "";
-                txt.Text = cu.Id.ToString() + cu.Descricao.ToString();
-                Stack.Children.Add(txt);
-                
+                txt.Text = cu.Id.ToString() + " - " + cu.Descricao.ToString();
+                Stack.Children.Add(txt);      
             }
         }
 
@@ -54,9 +53,8 @@ namespace CRUDRestaurante
             httpClient.BaseAddress = new Uri(ip);
             Restaurante f = new Restaurante
             {
-
-            Id = int.Parse(textBoxId.Text),
-            Descricao = textBoxDesc.Text
+                Id = int.Parse(textBoxId.Text),
+                Descricao = textBoxDesc.Text
             };
             List<Restaurante> fl = new List<Restaurante>();
             fl.Add(f);
@@ -76,7 +74,6 @@ namespace CRUDRestaurante
             Restaurante f = new Restaurante
             {
                 Id = int.Parse(textBoxId.Text),
-
                 Descricao = textBoxDesc.Text
             };
 

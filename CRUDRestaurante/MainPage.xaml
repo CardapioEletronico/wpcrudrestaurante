@@ -46,15 +46,16 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0" Height="534" VerticalAlignment="Bottom">
-            <StackPanel x:Name="Stack" HorizontalAlignment="Left" Height="514" Margin="10,10,0,0" VerticalAlignment="Top" Width="436"/>
-
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel x:Name="Stack" HorizontalAlignment="Left" Height="514" Margin="10,10,0,0" VerticalAlignment="Top" Width="436"/>
+            </ScrollViewer>
         </Grid>
         <TextBox x:Name="textBoxId" HorizontalAlignment="Left" Height="72" Margin="0,55,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Width="134" Grid.Row="1"/>
         <TextBox x:Name="textBoxDesc" HorizontalAlignment="Left" Height="72" Margin="134,55,0,0" TextWrapping="Wrap" Text="Descrição" VerticalAlignment="Top" Width="336" Grid.Row="1"/>
-        <Button x:Name="buttonSelect" Content="Select" HorizontalAlignment="Left" Margin="14,132,0,0" Grid.Row="1" VerticalAlignment="Top" Click="buttonSelect_Click"/>
+        <Button x:Name="buttonSelect" Content="Select" HorizontalAlignment="Left" Margin="1,132,0,0" Grid.Row="1" VerticalAlignment="Top" Click="buttonSelect_Click"/>
         <Button x:Name="buttonUpdate" Content="Editar" HorizontalAlignment="Left" Margin="118,132,0,0" Grid.Row="1" VerticalAlignment="Top" Click="buttonUpdate_Click"/>
-        <Button x:Name="buttonInsert" Content="Inserir" HorizontalAlignment="Left" Margin="233,132,0,0" Grid.Row="1" VerticalAlignment="Top" Click="buttonInsert_Click"/>
-        <Button x:Name="buttonDelete" Content="Deletar" HorizontalAlignment="Left" Margin="348,132,0,0" Grid.Row="1" VerticalAlignment="Top" Click="buttonDelete_Click"/>
+        <Button x:Name="buttonInsert" Content="Inserir" HorizontalAlignment="Left" Margin="228,132,0,0" Grid.Row="1" VerticalAlignment="Top" Click="buttonInsert_Click" RenderTransformOrigin="0.408,0.487"/>
+        <Button x:Name="buttonDelete" Content="Deletar" HorizontalAlignment="Left" Margin="343,132,0,0" Grid.Row="1" VerticalAlignment="Top" Click="buttonDelete_Click"/>
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to
